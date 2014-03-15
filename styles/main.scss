@@ -117,6 +117,7 @@ h3 {
 	font-family: 'open-sans', sans-serif;
 
 	&:after { content: nth($quotes, 1); }
+	.not-found &:after { content: ''; }
 
 	@media screen and (max-width: 768px) {
 		&:after { content: nth($quotes, 2); }
