@@ -1,0 +1,8 @@
+name: Vincent Klaiber
+markdown: redcarpet
+pygments: true
+timezone: Europe/Stockholm
+permalink: /blog/:title
+
+twitter: https://twitter.com/vincentklaiber
+github: https://github.com/vinkla
