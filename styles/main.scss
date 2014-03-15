@@ -4,11 +4,31 @@ $color-black: #26262a;
 $color-grey: #57575d;
 $color-light-grey: #67676d;
 
-$quotes:
-	"I don't want to scare you, but, I'm an Adventure Sphere. Designed for danger.",
+$quotes: "I don't want to scare you, but, I'm an Adventure Sphere. Designed for danger.",
 	"Okay. Look. We both said a lot of things that you're going to regret. But I think we can put our differences behind us. For science. You monster.",
 	"Good work getting this far, future starter!",
 	"Sarcasm Self Test Complete.";
+
+@mixin transform($value) {
+	$value: unquote($value);
+	-webkit-transform: $value;
+	-ms-transform: $value;
+	transform: $value;
+}
+
+@mixin transition($value) {
+	$value: unquote($value);
+	-webkit-transition: $value;
+	transition: $value;
+}
+
+@mixin user-select($value) {
+	$value: unquote($value);
+	-webkit-user-select: $value;
+	-moz-user-select: $value;
+	-ms-user-select: $value;
+	user-select: $value;
+}
 
 * { margin: 0; padding: 0; }
 
@@ -138,10 +158,8 @@ h5, h5 a {
 	font-family: 'freight-sans-pro', sans-serif;
 	font-size: 16px;
 	color: #f1f1f1;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+
+	@include user-select(none);
 }
 
 section {
@@ -155,9 +173,9 @@ header {
 	left: 50%;
 	width: 90%;
 	max-width: 550px;
-	-webkit-transform: translate(-50%, -70%);
-	transform: translate(-50%, -60%);
 	text-align: center;
+
+	@include transform(translate(-50%, -70%));
 }
 
 aside {
@@ -166,9 +184,7 @@ aside {
 	left: 0;
 	padding: 16px 20px;
 
-	@media screen and (max-width: 768px) {
-		position: absolute;
-	}
+	@media screen and (max-width: 768px) { position: absolute; }
 }
 
 section {
