@@ -94,11 +94,10 @@ header {
 
 	text-align: center;
 
+	&.not-found { @include transform(translateY(-30%)); }
+
 	@media screen and ($phone-breakpoint) { @include transform(translateY(-65%)); }
-	@media screen and ($tablet-breakpoint) {
-		@include transform(translateY(-55%));
-		&.not-found { @include transform(translateY(-30%)); }
-	}
+	@media screen and ($tablet-breakpoint) { @include transform(translateY(-55%)); }
 }
 
 section {
