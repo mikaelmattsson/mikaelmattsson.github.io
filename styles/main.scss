@@ -47,7 +47,7 @@ body {
 	font-weight: 300;
 	letter-spacing: $letter-spacing;
 	-moz-osx-font-smoothing: grayscale;
-	border-top: 4px solid #A044FC;
+	border: 8px solid #A044FC;
 
 	@media screen and ($phone-breakpoint) { font-size: $font-size; }
 }
@@ -55,6 +55,12 @@ body {
 p {
 	line-height: $line-height * 0.8;
 	@media screen and ($phone-breakpoint) { line-height: $line-height; }
+}
+
+span {
+	display: block;
+	padding: .5em 0;
+	font-size: $font-size * 2;
 }
 
 a {
@@ -88,6 +94,8 @@ header {
 	margin: 1em .5em;
 
 	text-align: center;
+
+	&.not-found { @include transform(translateY(-30%)); }
 
 	@media screen and ($phone-breakpoint) { @include transform(translateY(-65%)); }
 	@media screen and ($tablet-breakpoint) { @include transform(translateY(-55%)); }
