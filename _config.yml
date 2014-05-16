@@ -1,6 +1,8 @@
 gems:
   - jekyll-sitemap
 
+exclude: [Gemfile, Gemfile.lock, README.md]
+
 name: Vincent Klaiber
 author: Vincent Klaiber
 timezone: Europe/Stockholm
