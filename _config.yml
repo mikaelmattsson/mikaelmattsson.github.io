@@ -1,4 +1,9 @@
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
 name: Vincent Klaiber
+author: Vincent Klaiber
 timezone: Europe/Stockholm
 
 twitter: https://twitter.com/vnkla

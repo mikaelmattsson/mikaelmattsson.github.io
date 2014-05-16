@@ -1,18 +1,10 @@
 /*
  * Variables.
  */
-$font-base: chaparral-pro;
-
-$font-size: 22px;
-$font-size-heading: 2.2em;
-$letter-spacing: 0.5px;
-$line-height: $font-size * 1.5;
-
-$font-color: #8D8D9A;
-$font-color-heading: #3E3E4C;
-
-$tablet-breakpoint: 'min-width: 40em';
-$phone-breakpoint: 'min-width: 21em';
+$font-family: jaf-facitweb;
+$font-size: 16px;
+$color: #fff;
+$background: rgb(72, 207, 173);
 
 /*
  * Mixins.
@@ -39,74 +31,47 @@ html, body {
 }
 
 body {
-	min-width: 14em;
-
-	color: $font-color;
-	font-family: $font-base;
-	font-size: $font-size * 0.85;
-	font-weight: 300;
-	letter-spacing: $letter-spacing;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 
-	@media screen and ($phone-breakpoint) { font-size: $font-size; }
-}
+	background: $background;
 
-p {
-	line-height: $line-height * 0.8;
-	@media screen and ($phone-breakpoint) { line-height: $line-height; }
-}
-
-span {
-	display: block;
-	padding: .5em 0;
 	font-size: $font-size * 2;
-}
+	font-family: $font-family;
+	color: $color;
 
-a {
-	color: $font-color;
-	text-decoration: none;
-
-	&:hover {
-		color: $font-color-heading;
-	}
-}
-
-h1 {
-	margin: 0 0 .35em;
-
-	font-size: $font-size-heading;
-	font-weight: 400;
-	color: $font-color-heading;
-}
-
-img {
-	margin: 0 0 2em;
-	max-width: 7em;
+	text-align: center;
 }
 
 header {
-	position: relative;
+	width: 90%;
+	height: 4em;
+	position: absolute;
 	top: 50%;
-	@include transform(translateY(-75%));
+	left: 50%;
 
-	height: 17em;
-	margin: 1em 1em;
-
-	text-align: center;
-
-	&.not-found { @include transform(translateY(-30%)); }
-
-	@media screen and ($phone-breakpoint) { @include transform(translateY(-65%)); }
-	@media screen and ($tablet-breakpoint) { @include transform(translateY(-55%)); }
+	@include transform(translate(-50%, -50%));
 }
 
-section {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	border: 8px solid #A044FC;
-	z-index: 1;
+a {
+	text-decoration: none;
+}
 
-	pointer-events: none;
+h1 {
+	font-weight: 500;
+	font-size: $font-size * 2;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, .04);
+}
+
+svg {
+	width: 1em;
+	height: 1em;
+
+	path {
+		fill: $color;
+		opacity: 0.7;
+		transition: opacity .2s ease;
+	}
+
+	&:hover path { opacity: 1; }
 }

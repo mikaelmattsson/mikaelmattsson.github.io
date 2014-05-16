@@ -9,5 +9,5 @@ sass --watch -t compressed styles/main.scss:styles/main.css
 ```
 ##### Jekyll
 ```bash
-jekyll serve --watch
+bundle exec jekyll serve --watch
 ```
