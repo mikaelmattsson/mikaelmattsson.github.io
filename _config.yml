@@ -3,7 +3,6 @@ gems:
 
 exclude: [Gemfile, Gemfile.lock, README.md]
 
-name: Vincent Klaiber
 author: Vincent Klaiber
 email: me@vinkla.com
 timezone: Europe/Stockholm
