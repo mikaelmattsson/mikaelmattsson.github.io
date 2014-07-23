@@ -4,7 +4,12 @@
 $font-family: jaf-facitweb;
 $font-size: 16px;
 $color: #fff;
-$background: rgb(72, 207, 173);
+$backgrounds: (
+	green: #61e1c0,
+	red: #f27a86,
+	blue: #79bef0,
+	purple: #a09df3,
+);
 
 /*
  * Mixins.
@@ -34,13 +39,19 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 
-	background: $background;
+	background: map-get($backgrounds, green);
 
 	font-size: $font-size * 2;
 	font-family: $font-family;
 	color: $color;
 
 	text-align: center;
+
+	transition: background-color .2s ease;
+
+	@each $color, $hex in $backgrounds {
+		&.#{$color} { background: $hex; }
+	}
 }
 
 header {
@@ -60,7 +71,7 @@ a {
 h1 {
 	font-weight: 500;
 	font-size: $font-size * 2;
-	text-shadow: 0 2px 0 rgba(0, 0, 0, .04);
+	text-shadow: 0 2px 0 rgba(0, 0, 0, .1);
 }
 
 svg {
