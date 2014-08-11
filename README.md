@@ -3,10 +3,6 @@ This project is powered with [Jekyll](http://jekyllrb.com/). Visit [http://vinkl
 ### Development
 Command line tools used during development. I keep forgetting them, had to write them down somewhere.
 
-##### SASS
-```bash
-sass --watch -t compressed styles/main.scss:styles/main.css
-```
 ##### Jekyll
 ```bash
 bundle exec jekyll serve --watch
