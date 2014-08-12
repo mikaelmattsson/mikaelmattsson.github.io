@@ -8,4 +8,4 @@
     document.body.className = a[Math.round(Math.random() * (a.length - 1))];
   });
 
-}());
+})();
