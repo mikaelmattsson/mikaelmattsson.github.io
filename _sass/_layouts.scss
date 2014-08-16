@@ -57,6 +57,7 @@ section {
   @media screen and (max-width: 50em) {
     width: 100%;
     top: 20em;
+    padding: 1em;
   }
 }
 
@@ -68,6 +69,8 @@ section {
 
 article {
   padding: 0 0 4em;
+
+  @media screen and (max-width: 50em) { padding: 0 0 1em; }
 
   ul {
     list-style: square;
