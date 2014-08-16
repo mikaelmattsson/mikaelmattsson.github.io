@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<article>
+  <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%-d %B %Y"}}</time>
+  <h1>{{page.title}}</h1>
+  {{content}}
+  <footer>
+    <ul>
+      <li>
+      {% if page.previous %}
+        <h6><a href="{{page.previous.url}}">&larr; PREVIOUS</a></h6>
+      {% endif %}
+      </li>
+      <li><h6><a href="{{site.url}}">BACK TO START</a></h6></li>
+      <li>
+      {% if page.next %}
+        <h6><a href="{{page.next.url}}">NEXT &rarr; </a></h6>
+      {% endif %}
+      </li>
+    </ul>
+  </footer>
+</article>

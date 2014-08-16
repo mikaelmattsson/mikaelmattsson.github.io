@@ -10,6 +10,7 @@ Tools like [Node Packaged Modules](https://npmjs.org/), also known as **npm** an
 In this post I've listed useful commands when working with globally installed packages. I'll also go over changing npm's registry to get faster downloads. Bring it on.
 
 ### Basic Commands
+
 Below I've written down commands I often use while working with npm. Many of them can be used within local projects. Remove ```-g``` option  to trigger the commands in the directory your currently in.
 
 {% highlight bash %}
@@ -55,7 +56,7 @@ registry = "http://registry.npmjs.eu"
 Visit [npmrc](https://npmjs.org/doc/files/npmrc.html) and [npm-config](https://npmjs.org/doc/config.html) to learn more.
 
 #### SOURCES
-- [NPM's GitHub Account](https://github.com/npm) - GitHub
-- [Manage the npm configuration files](https://npmjs.org/doc/files/npmrc.html) - npm-config
-- [European npm mirror](http://npmjs.eu/) - npmjs.eu
-- [The Node Packaged Modules config files](https://npmjs.org/doc/files/npmrc.html) - npmrc
+- [NPM's GitHub Account](https://github.com/npm)
+- [Manage the npm configuration files](https://npmjs.org/doc/files/npmrc.html)
+- [European npm mirror](http://npmjs.eu/)
+- [The Node Packaged Modules config files](https://npmjs.org/doc/files/npmrc.html)

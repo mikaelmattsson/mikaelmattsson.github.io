@@ -18,5 +18,5 @@ There is still no release notes in the [forums](http://community.spotify.com/t5/
 Except for some minor design errors the app feels really stable and runs smoothly. Keep up the good work Spotify!
 
 #### SOURCES
-- [Spotify brings a clean new look to the desktop](http://www.theverge.com/2013/12/18/5222926/spotify-mac-app-0-9-8-update-visual-refresh) - The Verge
-- [Spotify 0.9.8: instructions and download](http://www.javiersantos.me/post/71959098951/download-for-win-os-x-spotify-0-9-8-instructions) - Javier Santos
+- [Spotify brings a clean new look to the desktop - The Verge](http://www.theverge.com/2013/12/18/5222926/spotify-mac-app-0-9-8-update-visual-refresh)
+- [Spotify 0.9.8: instructions and download - Javier Santos](http://www.javiersantos.me/post/71959098951/download-for-win-os-x-spotify-0-9-8-instructions)

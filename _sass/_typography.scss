@@ -1,0 +1,98 @@
+body {
+  font-size: 1.1875em;
+  line-height: 1.5em;
+  font-family: $font-base-family;
+  color: $color;
+}
+
+a {
+  color: $color;
+  text-decoration: none;
+  transition: all .1s ease;
+  border-bottom: 2px solid #e4e6ec;
+
+  &:hover {
+    color: #61e1c0;
+    border-color: #61e1c0;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: $font-size * 2.5;
+  font-weight: 600;
+  letter-spaceing: -0.2em;
+  color: $color-heading;
+  font-family: $font-heading;
+  margin: 1em 0 .5em;
+
+  a {
+    border: none;
+    color: $color-heading;
+  }
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: .75em;
+}
+.start h1 { margin-bottom: .4em; }
+
+h2 {
+  font-size: $font-size * 2;
+  font-weight: 400;
+}
+
+
+h3 {
+  font-size: $font-size * 2;
+}
+
+h4 {
+  font-size: $font-size * 1.5;
+  color: #61e1c0;
+}
+
+h5 { font-size: $font-size * 1.5; }
+h6 { font-size: $font-size * 1; }
+
+p {
+   code {
+    padding: .2em .4em;
+    font-size: .85em;
+  }
+}
+
+code, pre {
+  background: #f7f7f7;
+  color: #333335;
+  border-radius: 3px;
+}
+
+pre {
+  line-height: 1.3em;
+  padding: 1.5em;
+  overflow-y: hidden;
+  overflow-x: scroll;
+
+  .c {
+    color: #999995;
+    font-style: italic;
+  }
+}
+
+time { color: #999; }
+
+header {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+  h2 {
+    color: $color-header-primary;
+    font-family: $font-header;
+    font-size: $font-size * 2;
+    margin: .2em 0;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .1);
+  }
+
+  a { border: none; }
+}

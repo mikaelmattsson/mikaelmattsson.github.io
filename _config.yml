@@ -1,11 +1,14 @@
 gems:
   - jekyll-sitemap
 
-exclude: [Gemfile, Gemfile.lock, README.md]
+timezone: Europe/Stockholm
+exclude: [Gemfile, Gemfile.lock, RE ADME.md]
+
+url: "http://vinkla.com"
+permalink: /:year/:month/:title
 
 author: Vincent Klaiber
 email: me@vinkla.com
-timezone: Europe/Stockholm
 
 twitter: vnkla
 
