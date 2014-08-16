@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OpenEmu Let's-a go!
+page-class: purple
 ---
 
 Remember those childhood mornings, you had woken up extra early just to play on your Super Nintendo before breakfast. No? Well, me neither! I'm almost as old as the Super Nintendo. My first memories playing video games is on the Nintendo 64.

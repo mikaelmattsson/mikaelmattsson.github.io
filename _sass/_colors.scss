@@ -1,0 +1,14 @@
+$color-names: 'green', 'red', 'blue', 'purple';
+$colors: #61e1c0, #f27a86, #79bef0, #a09df3;
+
+@each $color in $color-names {
+    $i: index($color-names, $color);
+    .#{nth($color-names, $i)} {
+      header { background: nth($colors, $i); }
+
+      h4, a:hover {
+        color: nth($colors, $i);
+        border-color: nth($colors, $i);
+      }
+    }
+}

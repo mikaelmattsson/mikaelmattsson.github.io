@@ -9,7 +9,6 @@ header {
   transition: background-color 0.2s ease;
 
   color: $color-header-primary;
-  background: #61e1c0;
 
   div {
     width: 90%;
@@ -25,11 +24,6 @@ header {
   }
 }
 
-.green header { background: #61e1c0; }
-.red header { background: #f27a86; }
-.blue header { background: #79bef0; }
-.purple header { background: #a09df3; }
-
 section {
   height: 100%;
   width: 50%;
@@ -37,6 +31,11 @@ section {
   left: 0;
   top: 0;
   padding: 4em;
+}
+.page--home {
+ article {
+  padding-bottom: 1em;
+ }
 }
 
 article {
@@ -50,8 +49,6 @@ article {
   li {
     margin-bottom: .3em;
   }
-
-  &.start { padding-bottom: 1em; }
 
   iframe { width: 100% !important; }
 

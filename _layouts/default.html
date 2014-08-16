@@ -28,7 +28,7 @@
   <script src="//use.typekit.net/dxa2tjq.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
 </head>
-<body>
+<body class="{% if page.page-class %}{{page.page-class}}{% else %}page--home purple{% endif %}">
 
   <section>{{content}}</section>
 

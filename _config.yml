@@ -4,7 +4,9 @@ gems:
 timezone: Europe/Stockholm
 exclude: [Gemfile, Gemfile.lock, RE ADME.md]
 
+baseUrl: "/"
 url: "http://vinkla.com"
+
 permalink: /:year/:month/:title
 
 author: Vincent Klaiber

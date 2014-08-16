@@ -10,17 +10,13 @@ a {
   text-decoration: none;
   transition: all .1s ease;
   border-bottom: 2px solid #e4e6ec;
-
-  &:hover {
-    color: #61e1c0;
-    border-color: #61e1c0;
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: $font-size * 2.5;
   font-weight: 600;
   letter-spaceing: -0.2em;
+  line-height: 1.1em;
   color: $color-heading;
   font-family: $font-heading;
   margin: 1em 0 .5em;
@@ -35,21 +31,20 @@ h1 {
   font-weight: 700;
   margin-bottom: .75em;
 }
-.start h1 { margin-bottom: .4em; }
+.page--home h1 { margin-bottom: .3em; }
 
 h2 {
   font-size: $font-size * 2;
   font-weight: 400;
 }
 
-
 h3 {
   font-size: $font-size * 2;
 }
 
 h4 {
-  font-size: $font-size * 1.5;
-  color: #61e1c0;
+  font-size: $font-size * 1.25;
+  text-transform: uppercase;
 }
 
 h5 { font-size: $font-size * 1.5; }
