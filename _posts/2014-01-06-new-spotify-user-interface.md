@@ -6,7 +6,7 @@ page-class: green
 
 As many probably already have read, [Spotify](https://www.spotify.com/) has started to roll out an updated look to their desktop app. The update includes a darker user interface that make musicians artwork pop out.
 
-[<img src="/images/spotify-user-interface.png">](/images/spotify-user-interface.png)
+[<img src="/images/spotify-user-interface.png" alt="{{title}}">](/images/spotify-user-interface.png)
 
 Most of the updates appears to be purley cosmetic, though there seems to be some tiny new features available. For example, in artist pages there is a new plus button on each track. If you press it, Spotify creates a new playlist called *Recently Saved* and adds the track to it.
 

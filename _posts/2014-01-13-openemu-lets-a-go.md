@@ -8,7 +8,7 @@ Remember those childhood mornings, you had woken up extra early just to play on 
 
 Nowadays, as a grown up, I still find myself having a nerdgasm playing these old games. For some time now I've been able to play these awesome games on my Macbook Pro with [OpenEmu](http://openemu.org/).
 
-[<img src="/images/openemu-application-window.jpg">](/images/openemu-application-window.jpg)
+[<img src="/images/openemu-application-window.jpg" alt="{{title}}">](/images/openemu-application-window.jpg)
 
 OpenEmu is an open source project to bring video game emulation to OSX as a first class citizen. Emulators like the Super Nintendo, Nintendo 64 and Sony PlayStation are all playable in OpenEmu.
 

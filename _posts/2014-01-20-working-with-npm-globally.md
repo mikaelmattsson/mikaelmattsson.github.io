@@ -6,7 +6,7 @@ page-class: red
 
 Tools like [Node Packaged Modules](https://npmjs.org/), also known as **npm** and **npmjs**, has become a big part of my everyday coding. Either if you're working with command line tools like [Grunt](http://gruntjs.com/) and [Gulp](http://gulpjs.com/) or building [Node.js](http://nodejs.org/) apps, you always find your self having a great time. Everything just works.
 
-[<img src="/images/node-packaged-modules.png">](/images/node-packaged-modules.png)
+[<img src="/images/node-packaged-modules.png" alt="{{title}}">](/images/node-packaged-modules.png)
 
 In this post I've listed useful commands when working with globally installed packages. I'll also go over changing npm's registry to get faster downloads. Bring it on.
 
