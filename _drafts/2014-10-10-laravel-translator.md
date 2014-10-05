@@ -1,5 +1,5 @@
 ---
 layout: post
 title: Laravel Translator
-page-color: #a09df3
+color: '#f4645f'
 ---
