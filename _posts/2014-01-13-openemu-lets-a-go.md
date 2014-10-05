@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenEmu Let's-a go!
-page-class: purple
+color: '#a09df3'
 ---
 
 Remember those childhood mornings, you had woken up extra early just to play on your Super Nintendo before breakfast. No? Well, me neither! I'm almost as old as the Super Nintendo. My first memories playing video games is on the Nintendo 64.
@@ -12,11 +12,11 @@ Nowadays, as a grown up, I still find myself having a nerdgasm playing these old
 
 OpenEmu is an open source project to bring video game emulation to OSX as a first class citizen. Emulators like the Super Nintendo, Nintendo 64 and Sony PlayStation are all playable in OpenEmu.
 
-> For the first time, the 'It just works' philosophy now extends to open source video game emulation on the Mac. With OpenEmu, it is extremely easy to add, browse, organize and with a compatible gamepad, play those favorite games (ROMs) you already own - *[OpenEmu Website](http://openemu.org/)*
+> For the first time, the 'It just works' philosophy now extends to open source video game emulation on the Mac. With OpenEmu, it is extremely easy to add, browse, organize and with a compatible game pad, play those favorite games (ROMs) you already own - *[OpenEmu Website](http://openemu.org/)*
 
 Adding games to [OpenEmu](http://openemu.org/) is a real treat. You drag and drop [ROM](http://en.wikipedia.org/wiki/ROM_image) files into OpenEmu to add and run them. Whenever a new game is added, OpenEmu will automatically download and display its original box art.
 
-Playing with third party controllers like an Xbox 360 controller or an PlayStation 3 controller works like a charm. OpenEmu detects the controller automatically and has its setup ready go.
+Playing with third party controllers like an Xbox 360 controller or an PlayStation 3 controller works like a charm. OpenEmu detects the controller automatically and has its setup ready to go.
 
 ### Installation
 The easy way is to visit [OpenEmu's Website](http://openemu.org/). There you can download both a stable and experimental release. Installing it like any other Mac application.
