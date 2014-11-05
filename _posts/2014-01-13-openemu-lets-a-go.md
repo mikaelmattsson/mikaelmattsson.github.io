@@ -18,7 +18,7 @@ Adding games to [OpenEmu](http://openemu.org/) is a real treat. You drag and dro
 
 Playing with third party controllers like an Xbox 360 controller or an PlayStation 3 controller works like a charm. OpenEmu detects the controller automatically and has its setup ready to go.
 
-### Installation
+## Installation
 The easiest way is to visit [OpenEmu's Website](http://openemu.org/). There you can download both a stable and experimental release. Install it like any other Mac application.
 
 [Homebrew-cask](https://github.com/phinze/homebrew-cask) is another option for those who like to administer their Mac applications distributed as binaries.
