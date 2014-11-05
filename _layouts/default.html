@@ -16,7 +16,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="{{site.twitter}}">
-  <meta name="twitter:title" content="{% if page.title %}{{page.title}} &ndash; {% endif %} {{site.author}}">
+  <meta name="twitter:title" content="{% if page.title %}{{page.title}} - {% endif %} {{site.author}}">
   <meta name="twitter:creator" content="{{site.twitter}}">
   <meta name="twitter:image:src" content="{{site.github.owner_gravatar_url}}">
   <meta name="twitter:url" content="http://vinkla.com">
@@ -26,7 +26,7 @@
   <meta name="twitter:description" content="{{site.github.project_tagline}}">
   {% endif %}
 
-  <meta itemprop="name" content="{% if page.title %}{{ page.title }} &ndash; {% endif %} {{ site.name }}">
+  <meta itemprop="name" content="{% if page.title %}{{page.title}} - {% endif %} {{site.author}}">
   <meta itemprop="image" content="{{site.github.owner_gravatar_url}}">
   {% if page.excerpt %}
   <meta itemprop="description" content="{{page.excerpt}}">
