@@ -2,6 +2,7 @@
 layout: post
 title: Working With NPM Globally
 color: '#f27a86'
+excerpt: NPM has become a big part of my everyday coding. Here is a list of commands that is necessary to know when working with NPM globally.
 ---
 
 Tools like [Node Packaged Modules](https://npmjs.org/), also known as **npm** and **npmjs**, has become a big part of my everyday coding. Either if you're working with command line tools like [Grunt](http://gruntjs.com/) and [Gulp](http://gulpjs.com/) or building [Node.js](http://nodejs.org/) apps, you always find your self having a great time. Everything just works.
@@ -10,9 +11,9 @@ Tools like [Node Packaged Modules](https://npmjs.org/), also known as **npm** an
 
 In this post I've listed useful commands when working with globally installed packages. I'll also go over changing npm's registry to get faster downloads. Bring it on.
 
-## Basic Commands
+## Commands
 
-Below I've written down commands I often use while working with npm. Many of them can be used within local projects. Remove ```-g``` option  to trigger the commands in the directory your currently in.
+Below I've written down commands I often use while working with npm. Many of them can be used within local projects. Remove `-g` option  to trigger the commands in the directory your currently in.
 
 {% highlight bash %}
 # Install packages globally.
