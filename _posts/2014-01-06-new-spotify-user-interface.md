@@ -2,6 +2,7 @@
 layout: post
 title: New Spotify User Interface
 color: '#61e1c0'
+image: spotify-user-interface.png
 excerpt: Spotify has recently started to roll out a new updated look to their desktop app. Get it today!
 ---
 

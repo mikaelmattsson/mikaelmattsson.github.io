@@ -14,11 +14,18 @@
   <meta name="description" content="{{site.github.project_tagline}}">
   {% endif %}
 
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="{{site.twitter}}">
   <meta name="twitter:title" content="{% if page.title %}{{page.title}} - {% endif %} {{site.author}}">
   <meta name="twitter:creator" content="{{site.twitter}}">
+
+  {% if page.image %}
+  <meta name="twitter:image:src" content="{{site.url}}/images/{{page.image}}">
+  {% else %}
   <meta name="twitter:image:src" content="{{site.github.owner_gravatar_url}}">
+  {% endif %}
+
   <meta name="twitter:url" content="http://vinkla.com">
   {% if page.excerpt %}
   <meta name="twitter:description" content="{{page.excerpt}}">
@@ -26,8 +33,15 @@
   <meta name="twitter:description" content="{{site.github.project_tagline}}">
   {% endif %}
 
+  <!-- Google -->
   <meta itemprop="name" content="{% if page.title %}{{page.title}} - {% endif %} {{site.author}}">
+
+  {% if page.image %}
+  <meta itemprop="image" content="{{site.url}}/images/{{page.image}}">
+  {% else %}
   <meta itemprop="image" content="{{site.github.owner_gravatar_url}}">
+  {% endif %}
+
   {% if page.excerpt %}
   <meta itemprop="description" content="{{page.excerpt}}">
   {% else %}

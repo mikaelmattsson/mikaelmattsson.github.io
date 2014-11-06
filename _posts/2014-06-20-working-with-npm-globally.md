@@ -2,6 +2,7 @@
 layout: post
 title: Working With NPM Globally
 color: '#f27a86'
+image: node-packaged-modules.png
 excerpt: NPM has become a big part of my everyday coding. Here is a list of commands that is necessary to know when working with NPM globally.
 ---
 

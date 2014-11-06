@@ -2,6 +2,7 @@
 layout: post
 title: Laravel Translator
 color: '#5d9cec'
+image: laravel-translator.png
 excerpt: Why and how I created a translator package for Laravel Eloquent models. 
 ---
 
