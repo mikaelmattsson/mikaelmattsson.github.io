@@ -75,7 +75,7 @@ main {
 article {
   margin: 0 0 4em;
 
-  @media screen and (max-width: 50em) { padding: 0 0 1em; }
+  @media screen and (max-width: 50em) { margin: 2em 0; }
 
   ul {
     list-style: square;
@@ -115,6 +115,8 @@ article {
 svg {
   width: 2em;
   height: 2em;
+
+  @media screen and (max-width: 50em) { margin: 0 .1em; }
 
   path {
       fill: $color-header-primary;
