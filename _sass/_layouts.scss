@@ -63,13 +63,17 @@ main {
 }
 
 .page--home {
- article {
-  padding-bottom: 1em;
- }
+  article {
+    margin-bottom: 3em;
+
+    &:last-child {
+      margin-bottom: 4em;
+    }
+  }
 }
 
 article {
-  padding: 0 0 4em;
+  margin: 0 0 4em;
 
   @media screen and (max-width: 50em) { padding: 0 0 1em; }
 

@@ -38,7 +38,7 @@ h2 {
 
   .page--home & {
     font-weight: 700;
-    margin-bottom: .3em;
+    margin-top: 0;
   }
 }
 
@@ -80,7 +80,14 @@ pre {
   }
 }
 
-time { color: #999; }
+time {
+  color: #999;
+
+  .page--home & {
+    display: block;
+    padding-bottom: .5em;
+  }
+}
 
 header {
   -moz-osx-font-smoothing: grayscale;
