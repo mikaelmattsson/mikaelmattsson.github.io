@@ -1,18 +1,17 @@
+# Build settings
 gems:
   - jekyll-sitemap
-
-timezone: Europe/Stockholm
-exclude: [Gemfile, Gemfile.lock, RE ADME.md]
-
-baseUrl: "/"
-url: "http://vinkla.com"
-
-permalink: /:year/:month/:title
-
-author: Vincent Klaiber
-email: me@vinkla.com
-
-twitter: vnkla
-
 sass:
   style: :compressed
+
+timezone: Europe/Stockholm
+permalink: /:year/:month/:title
+exclude: [Gemfile, Gemfile.lock, RE ADME.md]
+
+# Site settings
+title: Vincent Klaiber
+email: me@vinkla.com
+description: Articles on everyday programming, personal challenges and new fun tech news.
+twitter: vnkla
+baseUrl: "/"
+url: "http://vinkla.com"
