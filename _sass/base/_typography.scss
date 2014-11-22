@@ -14,6 +14,9 @@ a {
   color: $color;
   text-decoration: none;
   transition: all .1s ease;
+}
+
+p a {
   border-bottom: 2px solid #e4e6ec;
 }
 
@@ -102,22 +105,5 @@ time {
 }
 
 li {
-  font-size: 1.1em;
-}
-
-header {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-
-  h2, .page--home & h2 {
-    color: $color-header-primary;
-    font-family: $font-header;
-    font-size: $font-size * 2.3;
-    font-weight: 500;
-    margin: 0;
-    line-height: 1.2em;
-    text-shadow: 0 2px 0 rgba(0, 0, 0, .1);
-  }
-
-  a { border: none; }
+  font-size: 1.2em;
 }

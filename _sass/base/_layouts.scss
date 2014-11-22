@@ -1,45 +1,3 @@
-.header {
-  height: 100%;
-  position: fixed;
-  width: 50%;
-  top: 0;
-  left: 50%;
-  text-align: center;
-
-  transition: all 0.2s ease;
-
-  div {
-    width: 90%;
-    height: 4em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -80%);
-    -webkit-transform: translate(-50%, -80%);
-  }
-
-  a { margin: 0 .2em; }
-
-  .break-desktop { display: block; }
-  .break-tablet { display: none; }
-
-  @media screen and (max-width: 75em) {
-    width: 40%;
-    left: 60%;
-
-    .break-desktop { display: none; }
-    .break-tablet { display: block; }
-  }
-
-  @media screen and (max-width: 50em) {
-    width: 100%;
-    height: 20em;
-    left: 0;
-    top: 0;
-    position: absolute;
-  }
-}
-
 nav {
   position: fixed;
   top: 0;
@@ -68,7 +26,6 @@ nav {
 
     a {
       display: block;
-      border: none;
       padding: .2em 1em;
 
       &:hover path {
@@ -87,11 +44,9 @@ main { margin-left: 4em; }
 }
 
 article {
-  margin: 0 0 0 4em;
   width: 90%;
-  max-width: 40em;
-  margin-top: 4em;
-  margin-bottom: 4em;
+  max-width: 48em;
+  padding: 4em;
 
   ul {
     list-style: square;
@@ -127,7 +82,6 @@ article {
     }
   }
 }
-
 
 .btn {
   border: 1px solid transparent;

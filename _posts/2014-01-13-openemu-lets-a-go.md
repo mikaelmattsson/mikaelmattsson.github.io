@@ -3,7 +3,7 @@ layout: post
 title: OpenEmu Let's-a go!
 color: '#a09df3'
 image: openemu-application-window.jpg
-excerpt: Remember those childhood mornings, you had woken up extra early just to play on your Super Nintendo before breakfast. No? Well, me neither! 
+excerpt: Remember those childhood mornings, you had woken up extra early just to play on your Super Nintendo before breakfast. No? Well, me neither! I'm almost as old as the Super Nintendo. My first memories playing video games is on the Nintendo 64.
 ---
 
 Remember those childhood mornings, you had woken up extra early just to play on your Super Nintendo before breakfast. No? Well, me neither! I'm almost as old as the Super Nintendo. My first memories playing video games is on the Nintendo 64.

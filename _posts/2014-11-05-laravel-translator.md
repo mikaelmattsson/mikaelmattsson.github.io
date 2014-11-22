@@ -3,7 +3,7 @@ layout: post
 title: Laravel Translator
 color: '#5d9cec'
 image: laravel-translator.png
-excerpt: Why and how I created a database-leveled translator package for Laravel Eloquent models. 
+excerpt: A while ago I started to build a multilingual application. One of the client's criteria was that they wanted to be able to edit translations and adding new languages during the life cycle of the app. Building a database-leveled multilingual back-end was new for me. This is the story of how and why the Translator package came to life.
 ---
 
 A while ago I started to build a multilingual application. One of the client's criteria was that they wanted to be able to edit translations and adding new languages during the life cycle of the app. Building a database-leveled multilingual back-end was new for me. This is the story of how and why the [Translator](https://github.com/vinkla/translator) package came to life.
