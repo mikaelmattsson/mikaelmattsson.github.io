@@ -1,4 +1,4 @@
-header {
+.header {
   height: 100%;
   position: fixed;
   width: 50%;
@@ -47,6 +47,35 @@ nav {
   width: 4em;
   height: 100%;
   background: $color-heading;
+
+  header {
+    a {
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+      padding: .75em 0 .5em;
+    }
+
+    svg {
+      fill: $color-light;
+    }
+  }
+
+  footer {
+    width: 100%;
+    position: absolute;
+    bottom: .5em;
+
+    a {
+      display: block;
+      border: none;
+      padding: .2em 1em;
+
+      &:hover path {
+        fill: $color-nav-icon-hover;
+      }
+    }
+  }
 }
 
 main { margin-left: 4em; }
@@ -99,12 +128,13 @@ article {
   }
 }
 
+
 .btn {
   border: 1px solid transparent;
   padding: 1em 1.5em;
   border-radius: 3px;
 
-  transition: background .1s ease;
+  transition: all .1s ease;
 
   &:hover {
     color: $color-light;
@@ -112,16 +142,9 @@ article {
 }
 
 svg {
-  width: 2em;
-  height: 2em;
+  width: 100%;
+  height: 100%;
 
-  @media screen and (max-width: 50em) { margin: 0 .1em; }
-
-  path {
-      fill: $color-header-primary;
-      opacity: 0.7;
-      transition: opacity .2s ease;
-  }
-
-  &:hover path { opacity: 1; }
+  fill: $color-nav-icon;
+  transition: fill .2s ease;
 }

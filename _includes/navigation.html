@@ -1,11 +1,18 @@
 <nav>
-  <a href="https://twitter.com/{{site.twitter}}" title="Follow @{{site.twitter}} on Twitter!">
-
-  </a>
-  <a href="mailto:{{site.email}}" title="Email Vincent and say hello!">
-
-  </a>
-  <a href="{{site.github.owner_url}}" title="Follow @{{site.github.owner_name}} on GitHub!">
-
-  </a>
+  <header>
+    <a href="/" title="Back to start">
+      {% include icons/cube.html %}
+    </a>
+  </header>
+  <footer>
+    <a href="https://twitter.com/{{site.twitter}}" title="Follow @{{site.twitter}} on Twitter!">
+      {% include icons/twitter.html %}
+    </a>
+    <a href="mailto:{{site.email}}" title="Email Vincent and say hello!">
+      {% include icons/mail.html %}
+    </a>
+    <a href="{{site.github.owner_url}}" title="Follow @{{site.github.owner_name}} on GitHub!">
+      {% include icons/github.html %}
+    </a>
+  </footer>
 </nav>
