@@ -3,7 +3,7 @@ layout: post
 title: Dynamic Wildcards and Laravel Homestead
 color: '#f4d03f'
 image: wildcards-homestead.png
-excerpt: This is the excerpt.
+excerpt: Languages during the life cycle of the app. Building a database-leveled multilingual back-end was new for me. This is the story of how and why the Translator package came to life.
 ---
 
 {% highlight bash %}
@@ -17,7 +17,7 @@ $ cp /usr/local/opt/dnsmasq/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf
 
 Change ip to what use in Homestead.yaml.
 {% highlight bash %}
-address=/greatapp.dev/192.168.10.10
+address=/whatsapp.dev/192.168.10.10
 {% endhighlight %}
 
 {% highlight bash %}
