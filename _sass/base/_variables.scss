@@ -8,5 +8,7 @@ $font-heading: freight-sans-pro;
 $font-size: 16px;
 $color: #373735;
 
-$color-header-primary: #fff;
-$color-heading: #1D1D1D;
+$color-light: #fff;
+$color-header-primary: $color-light;
+$color-heading: #32373d;
+$color-background: #fdfdff;

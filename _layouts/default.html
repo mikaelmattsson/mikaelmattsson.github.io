@@ -53,8 +53,8 @@
 
   {% if page.color %}
   <style>
-    header { background: {{page.color}}; }
-    h4, a:hover {
+    header, .btn:hover { background: {{page.color}}; }
+    h4, a:hover, .btn {
       color: {{page.color}};
       border-color: {{page.color}};
     }
@@ -66,9 +66,11 @@
 </head>
 <body class="{% if page.page-class %}{{page.page-class}}{% else %}page--home {% endif %}">
 
+  {% include navigation.html %}
+
   <main>{{content}}</main>
 
-  {% include header.html %}
+  <!-- {% include header.html %} -->
 
   <script src="/scripts/main.js"></script>
   <script>

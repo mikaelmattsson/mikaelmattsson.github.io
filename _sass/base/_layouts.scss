@@ -40,43 +40,29 @@ header {
   }
 }
 
-main {
-  height: 100%;
-  width: 50%;
-  background: #fdfdff;
-  left: 0;
+nav {
+  position: fixed;
   top: 0;
-  padding: 4em;
-  position: relative;
-
-  transition: all 0.2s ease;
-
-  @media screen and (max-width: 75em) {
-    width: 60%;
-  }
-
-  @media screen and (max-width: 50em) {
-    width: 100%;
-    top: 20em;
-    padding: 1em;
-  }
+  left: 0;
+  width: 4em;
+  height: 100%;
+  background: $color-heading;
 }
 
-.page--home {
-  article {
-    margin-top: 0;
-    margin-bottom: 3em;
+main { margin-left: 4em; }
 
-    &:last-child {
-      margin-bottom: 4em;
-    }
+.page--home {
+  section {
+    border-bottom: 1px solid #f0f0f0;
   }
 }
 
 article {
-  margin: 0 0 4em;
-
-  @media screen and (max-width: 50em) { margin: 2em 0; }
+  margin: 0 0 0 4em;
+  width: 90%;
+  max-width: 40em;
+  margin-top: 4em;
+  margin-bottom: 4em;
 
   ul {
     list-style: square;
@@ -110,6 +96,18 @@ article {
       &:first-child { text-align: left; }
       &:last-child { text-align: right; }
     }
+  }
+}
+
+.btn {
+  border: 1px solid transparent;
+  padding: 1em 1.5em;
+  border-radius: 3px;
+
+  transition: background .1s ease;
+
+  &:hover {
+    color: $color-light;
   }
 }
 
