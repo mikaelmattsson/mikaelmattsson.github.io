@@ -74,13 +74,15 @@ p {
 }
 
 code, pre {
-  background: #f7f7f7;
+  background: #ececef;
   color: #333335;
   border-radius: 3px;
+  font-family: menlo;
 }
 
 pre {
-  line-height: 1.3em;
+  font-size: .9em;
+  line-height: 1.5em;
   padding: 1.5em;
   overflow-y: hidden;
   overflow-x: scroll;
