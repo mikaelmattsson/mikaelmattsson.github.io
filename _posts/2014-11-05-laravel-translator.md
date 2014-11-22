@@ -51,7 +51,7 @@ We decided to create a [package of our own](https://github.com/vinkla/translator
 
 First we created our locales table containing just a few columns.
 
-{% highlight php %}
+{% highlight php startinline %}
 Schema::create('locales', function(Blueprint $table)
 {
     $table->increments('id');
@@ -62,7 +62,7 @@ Schema::create('locales', function(Blueprint $table)
 
 Then our base table.
 
-{% highlight php %}
+{% highlight php startinline %}
 Schema::create('articles', function(Blueprint $table)
 {
     $table->increments('id');
@@ -73,7 +73,7 @@ Schema::create('articles', function(Blueprint $table)
 
 Last but not least, our translations model.
 
-{% highlight php %}
+{% highlight php startinline %}
 Schema::create('article_translations', function(Blueprint $table)
 {
     $table->increments('id');
@@ -97,7 +97,7 @@ The translated attributes `title` and `content` are saved in our translations ta
 
 In the end, after creating a [trait](https://github.com/vinkla/translator/blob/master/src/Vinkla/Translator/TranslatorTrait.php), which extends Laravel's Eloquent magic, we were able to fetch translations like in the example below.
 
-{% highlight php %}
+{% highlight php startinline %}
 {% raw %}
 <img src="{{ $article->thumbnail }}">
 <h1>{{ $article->title }}</h1>
@@ -107,7 +107,7 @@ In the end, after creating a [trait](https://github.com/vinkla/translator/blob/m
 
 The example above fetches the translated attributes either by the current set locale in Laravel or by sessions. This is configurable within the package configuration.
 
-{% highlight php %}
+{% highlight php startinline %}
 // Application Driver
 $locale = App::getLocale();
 
