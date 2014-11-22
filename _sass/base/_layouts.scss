@@ -32,9 +32,10 @@ aside {
   nav { margin-top: 1em; }
 
   .previous {
-    -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
     transform: rotate(180deg);
+    margin-bottom: 1em;
   }
 
   footer {
@@ -78,22 +79,7 @@ article {
   }
 
   footer {
-    margin: 2em 0 1em;
-    overflow: auto;
-
-    ul {
-      margin: 0;
-    }
-
-    li {
-      list-style: none;
-      width: 33%;
-      float: left;
-      text-align: center;
-
-      &:first-child { text-align: left; }
-      &:last-child { text-align: right; }
-    }
+    margin: 2em 0 0;
   }
 }
 

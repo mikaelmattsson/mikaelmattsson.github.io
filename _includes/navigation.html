@@ -6,14 +6,14 @@
   </header>
   {% if page.path contains '_posts' %}
   <nav>
-    {% if page.next %}
-      <a class="next" href="{{page.next.url}}" title="{{page.next.title}}">
+    {% if page.previous %}
+      <a class="previous" href="{{page.previous.url}}" title="{{page.previous.title}}">
         {% include icons/arrow.html %}
       </a>
     {% endif %}
 
-    {% if page.previous %}
-      <a class="previous" href="{{page.previous.url}}" title="{{page.previous.title}}">
+    {% if page.next %}
+      <a class="next" href="{{page.next.url}}" title="{{page.next.title}}">
         {% include icons/arrow.html %}
       </a>
     {% endif %}
