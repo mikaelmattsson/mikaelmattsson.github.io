@@ -1,7 +1,9 @@
 ---
 ---
+@charset 'UTF-8';
 
-@import 'variables';
-@import 'global';
-@import 'layouts';
-@import 'typography';
+// Dependencies
+@import 'vendor/normalize';
+
+// Variables, fonts, mixins, helpers... common styles used across the entire site
+@import 'base/__base';
