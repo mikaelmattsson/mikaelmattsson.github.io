@@ -1,4 +1,4 @@
-nav {
+aside {
   position: fixed;
   top: 0;
   left: 0;
@@ -6,32 +6,42 @@ nav {
   height: 100%;
   background: $color-heading;
 
+  @media screen and (max-width: 30em) { width: 3.5em; }
+
   header {
+    position: relative;
+    width: 100%;
+    height: 4em;
+
     a {
       display: block;
-      width: 50%;
-      margin: 0 auto;
-      padding: .75em 0 .5em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      padding: 0;
+      transform: translate(-50%, -40%);
     }
 
-    svg {
-      fill: $color-light;
+    svg { fill: $color-light; }
+  }
+
+  a {
+    display: block;
+    padding: .2em 1em;
+
+    &:hover svg {
+      fill: $color-nav-icon-hover;
     }
   }
+
+  nav { margin-top: 1em; }
+
+  .previous { transform: rotate(180deg); }
 
   footer {
     width: 100%;
     position: absolute;
     bottom: .5em;
-
-    a {
-      display: block;
-      padding: .2em 1em;
-
-      &:hover path {
-        fill: $color-nav-icon-hover;
-      }
-    }
   }
 }
 
@@ -48,14 +58,17 @@ article {
   max-width: 48em;
   padding: 4em;
 
+  @media screen and (max-width: 64em) { padding: 2em; }
+  @media screen and (max-width: 30em) { padding: 1em; }
+
+  a { border-bottom: 2px solid #e4e6ec; }
+
   ul {
     list-style: square;
-    margin-left: 1em;
+    margin-left: 1.25em;
   }
 
-  li {
-    margin-bottom: .3em;
-  }
+  li { margin-bottom: .4em; }
 
   iframe { width: 100% !important; }
 
