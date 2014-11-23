@@ -20,6 +20,14 @@ There is still no release notes in the [forums](http://community.spotify.com/t5/
 
 Except for some minor design errors the app feels really stable and runs smoothly. Keep up the good work Spotify!
 
+### Beta
+
+Beta versions are now [availabe to download](http://community.spotify.com/t5/Help-Desktop-Linux-Mac-and/Welcome-to-the-Desktop-Beta/td-p/932803) from the community forums and with [Homebrew Cask](http://caskroom.io/).
+
+{% highlight bash %}
+$ brew cask install spotifybeta
+{% endhighlight %}
+
 #### SOURCES
 - [Spotify brings a clean new look to the desktop](http://www.theverge.com/2013/12/18/5222926/spotify-mac-app-0-9-8-update-visual-refresh) - The Verge
 - [Spotify 0.9.8: instructions and download](http://www.javiersantos.me/post/71959098951/download-for-win-os-x-spotify-0-9-8-instructions) - Javier Santos
