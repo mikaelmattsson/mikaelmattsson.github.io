@@ -67,11 +67,7 @@
 </head>
 <body class="{% if page.page-class %}{{page.page-class}}{% else %}page--home {% endif %}">
 
-  {% include navigation.html %}
-
-  <main>{{content}}</main>
-
-  {% include header.html %}
+  {{content}}
 
   <script src="/scripts/main.js"></script>
   <script>
