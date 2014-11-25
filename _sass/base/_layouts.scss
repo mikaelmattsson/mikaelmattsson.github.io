@@ -43,7 +43,7 @@ aside {
   }
 }
 
-main { margin-left: 4.7em; }
+main { margin-left: 4em; }
 
 .page--home {
   section { border-bottom: 1px solid #f0f0f0; }
@@ -54,7 +54,7 @@ main { margin-left: 4.7em; }
 article {
   width: 90%;
   max-width: 48em;
-  padding: 4em;
+  padding: 3.5em;
 
   @media screen and (max-width: 64em) { padding: 2em; }
   @media screen and (max-width: 30em) { padding: 1em; }
