@@ -1,72 +1,9 @@
 <!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html class="page {% if page.page-class %}{{page.page-class}}{% else %}page--home{% endif %}">
 
-  <title>{% if page.title %}{{page.title}} - {% endif %}{{site.title}}</title>
+{% include head.html %}
 
-  <meta name="author" content="{{site.title}}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  {% if page.excerpt %}
-  <meta name="description" content="{{page.excerpt}}">
-  {% else %}
-  <meta name="description" content="{{site.github.project_tagline}}">
-  {% endif %}
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="{{site.twitter}}">
-  <meta name="twitter:title" content="{% if page.title %}{{page.title}} - {% endif %}{{site.title}}">
-  <meta name="twitter:creator" content="{{site.twitter}}">
-
-  {% if page.image %}
-  <meta name="twitter:image:src" content="{{site.url}}/images/{{page.image}}">
-  {% else %}
-  <meta name="twitter:image:src" content="{{site.github.owner_gravatar_url}}">
-  {% endif %}
-
-  <meta name="twitter:url" content="http://vinkla.com">
-  {% if page.excerpt %}
-  <meta name="twitter:description" content="{{page.excerpt}}">
-  {% else %}
-  <meta name="twitter:description" content="{{site.github.project_tagline}}">
-  {% endif %}
-
-  <!-- Google -->
-  <meta itemprop="name" content="{% if page.title %}{{page.title}} - {% endif %}{{site.title}}">
-
-  {% if page.image %}
-  <meta itemprop="image" content="{{site.url}}/images/{{page.image}}">
-  {% else %}
-  <meta itemprop="image" content="{{site.github.owner_gravatar_url}}">
-  {% endif %}
-
-  {% if page.excerpt %}
-  <meta itemprop="description" content="{{page.excerpt}}">
-  {% else %}
-  <meta itemprop="description" content="{{site.github.project_tagline}}">
-  {% endif %}
-
-  <link rel="stylesheet" href="/styles/main.css">
-  <link rel="shortcut icon" href="/favicon.ico">
-
-  {% if page.color %}
-  <meta name="theme-color" content="{{page.color}}">
-  <style>
-    aside header, .btn:hover { background: {{page.color}}; }
-    h4, a:hover, .btn {
-      color: {{page.color}};
-      border-color: {{page.color}};
-    }
-  </style>
-  {% endif %}
-
-  <script src="//use.typekit.net/dxa2tjq.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-</head>
-<body class="{% if page.page-class %}{{page.page-class}}{% else %}page--home {% endif %}">
-
+<body>
   {{content}}
 
   <script src="/scripts/main.js"></script>
@@ -88,5 +25,3 @@
     ga('require', 'displayfeatures');
     ga('send', 'pageview');
   </script>
-</body>
-</html>
