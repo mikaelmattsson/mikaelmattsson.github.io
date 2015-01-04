@@ -105,14 +105,10 @@ In the end, after creating a [trait](https://github.com/vinkla/translator/blob/m
 {% endraw %}
 {% endhighlight %}
 
-The example above fetches the translated attributes either by the current set locale in Laravel or by sessions. This is configurable within the package configuration.
+The example above fetches the translated attributes by the current set locale in Laravel. This is configurable within the package configuration.
 
 {% highlight php startinline %}
-// Application Driver
 $locale = App::getLocale();
-
-// Session Driver
-$locale = Session::get('locale');
 {% endhighlight %}
 
 If you're still reading and want to give this a try, please check out the [Translator repository on GitHub](https://github.com/vinkla/translator). There you can find documentation and a installation guide. 
