@@ -15,7 +15,7 @@ This new technology is used for AirDrop, AirPlay, and other connections between 
 Nevertheless, this trick almost doubled the speed on my Macbook. Just sayin.
 
 ## The Trick
-Open you the Terminal application, located under `/Applications/Utilities`. Run the command below to turn AWDL off.
+Open up the Terminal application, located under `/Applications/Utilities`. Run the command below to turn AWDL off.
 
 {% highlight bash %}
 
