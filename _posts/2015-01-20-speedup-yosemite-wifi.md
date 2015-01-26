@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Speedup Yosemite Wi-Fi
-color: '#73f7ce'
+color: '#2ECC71'
 image: yosemite-wireless.jpg
 excerpt: Since the release of Yosemite users have experienced slow wireless connections. This is because of new a feature in Yosemite and iOS 8 called Apple Wireless Direct Link (AWDL). Like everything else in this UNIX madness, we can turn it off!
 ---
