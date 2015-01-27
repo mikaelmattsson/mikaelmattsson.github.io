@@ -23,6 +23,8 @@ sudo ifconfig awdl0 down
 
 {% endhighlight %}
 
+Note that if you restart your computer this will go back to default and you will have to turn it off again.
+
 If you later on realize that you are in need of using any of the services you just turned off. You can easily replace `down` with `up` and then its turned on again.
 
 {% highlight bash %}
