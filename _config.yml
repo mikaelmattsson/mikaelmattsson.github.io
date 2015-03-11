@@ -1,11 +1,13 @@
 # Build settings
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
+
 sass:
   style: :compressed
 
 timezone: Europe/Stockholm
-permalink: /:year/:month/:title
+permalink: /posts/:title
 exclude: [Gemfile, Gemfile.lock, RE ADME.md]
 
 # Site settings

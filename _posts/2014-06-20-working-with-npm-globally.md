@@ -4,6 +4,7 @@ title: Working With NPM Globally
 color: '#f27a86'
 image: node-packaged-modules.png
 excerpt: Tools like Node Packaged Modules, also known as npm and npmjs, has become a big part of my everyday coding. Either if you're working with command line tools like Grunt and Gulp or building Node.js apps, you always find your self having a great time. Everything just works.
+redirect_from: /2014/06/working-with-npm-globally/
 ---
 
 Tools like [Node Packaged Modules](https://npmjs.org/), also known as **npm** and **npmjs**, has become a big part of my everyday coding. Either if you're working with command line tools like [Grunt](http://gruntjs.com/) and [Gulp](http://gulpjs.com/) or building [Node.js](http://nodejs.org/) apps, you always find your self having a great time. Everything just works.

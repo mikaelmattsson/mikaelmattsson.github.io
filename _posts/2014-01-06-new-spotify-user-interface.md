@@ -4,6 +4,7 @@ title: New Spotify User Interface
 color: '#61e1c0'
 image: spotify-user-interface.png
 excerpt: As many probably already have read, Spotify has started to roll out an updated look to their desktop app. The update includes a darker user interface that make musicians artwork pop out.
+redirect_from: /2014/01/new-spotify-user-interface/
 ---
 
 As many probably already have read, [Spotify](https://www.spotify.com/) has started to roll out an updated look to their desktop app. The update includes a darker user interface that make musicians artwork pop out.
