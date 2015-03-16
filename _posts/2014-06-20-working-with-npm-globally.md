@@ -34,7 +34,7 @@ $ npm ls -g --depth=0
 $ npm update -g
 
 # Update npm to the latest version.
-$ npm update npm -g
+$ npm install -g npm@latest
 {% endhighlight %}
 
 Visit [npmrc](https://npmjs.org/doc/files/npmrc.html) and [npm-config](https://npmjs.org/doc/config.html) to learn more.
