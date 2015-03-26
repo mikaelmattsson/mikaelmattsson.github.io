@@ -7,3 +7,7 @@ Command line tools used during development. I keep forgetting them, had to write
 ```bash
 bundle exec jekyll serve --watch --drafts
 ```
+
+## License
+
+This project is licensed under [The MIT License (MIT)](LICENSE).
