@@ -29,10 +29,10 @@ The easiest way is to visit [OpenEmu's Website](http://openemu.org/). There you 
 {% highlight bash %}
 
 # Stable Release
-$ brew cask install openemu
+brew cask install openemu
 
 # Experimental Release
-$ brew cask install openemu-experimental
+brew cask install openemu-experimental
 
 {% endhighlight %}
 

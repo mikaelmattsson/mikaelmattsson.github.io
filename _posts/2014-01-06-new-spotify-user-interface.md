@@ -26,7 +26,7 @@ Except for some minor design errors the app feels really stable and runs smoothl
 Beta versions are now [availabe to download](http://community.spotify.com/t5/Help-Desktop-Linux-Mac-and/Welcome-to-the-Desktop-Beta/td-p/932803) from the community forums and with [Homebrew Cask](http://caskroom.io/).
 
 {% highlight bash %}
-$ brew cask install spotifybeta
+brew cask install spotifybeta
 {% endhighlight %}
 
 #### SOURCES

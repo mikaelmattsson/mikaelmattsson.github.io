@@ -19,22 +19,22 @@ Below I've written down commands I often use while working with npm. Many of the
 
 {% highlight bash %}
 # Install packages globally.
-$ npm install -g <package-name>
+npm install -g <package-name>
 
 # Uninstall globally installed packages.
-$ npm uninstall -g <package-name>
+npm uninstall -g <package-name>
 
 # List globally installed packages.
-$ npm ls -g
+npm ls -g
 
 # List globally installed packages without dependencies.
-$ npm ls -g --depth=0
+npm ls -g --depth=0
 
 # Update globally installed packages.
-$ npm update -g
+npm update -g
 
 # Update npm to the latest version.
-$ npm install -g npm@latest
+npm install -g npm@latest
 {% endhighlight %}
 
 Visit [npmrc](https://npmjs.org/doc/files/npmrc.html) and [npm-config](https://npmjs.org/doc/config.html) to learn more.
