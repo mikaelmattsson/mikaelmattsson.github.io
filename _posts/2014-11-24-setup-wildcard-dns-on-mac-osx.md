@@ -4,7 +4,9 @@ title: Setup Wildcard DNS on Mac OS X
 color: '#f4d03f'
 image: wildcards-dns.png
 excerpt: Setting up wildcard DNS records in your local development environment doesn't come out of the box with OS X. But don't you worry! With Dnsmasq and Homebrew you can have it up and running within minutes.
-redirect_from: /2014/11/setup-wildcards-dns-on-mac-os-x/
+redirect_from: 
+  - /2014/11/setup-wildcards-dns-on-mac-os-x/
+  - /posts/setup-wildcards-dns-on-mac-os-x/
 ---
 
 Setting up wildcard DNS records in your local development environment doesn't come out of the box with OS X. But don't you worry! With [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) and [Homebrew](http://brew.sh) you can have it up and running within minutes.
