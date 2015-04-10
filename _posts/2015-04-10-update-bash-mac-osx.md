@@ -50,7 +50,7 @@ echo $BASH_VERSION
 
 {% endhighlight %}
 
-This shows you another version, probably the previous older version. This is because the system doesn't yet know that you want to use the newer version. 
+This gives you another version, probably the previous older version. This is because the system doesn't yet know that you want to use the newer version. 
 
 First of you need to add the new shell to the list of allowed shells.
 
