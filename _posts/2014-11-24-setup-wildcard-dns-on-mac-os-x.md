@@ -13,13 +13,13 @@ Setting up wildcard DNS records in your local development environment doesn't c
 Dnsmasq is available within [Homebrew](http://brew.sh). First make sure you have the latest version of `brew` and then install Dnsmasq.
 
 {% highlight bash %}
-$ brew update
-$ brew install dnsmasq
+brew update
+brew install dnsmasq
 {% endhighlight %}
 
 The next step is to set up your `dnsmasq.conf`. To configure Dnsmasq, copy the example configuration to `/usr/local/etc/dnsmasq.conf` and edit to taste.
 {% highlight bash %}
-$ cp /usr/local/opt/dnsmasq/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf
+cp /usr/local/opt/dnsmasq/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf
 {% endhighlight %}
 
 Now let's edit `/usr/local/etc/dnsmasq.conf` to include our custom DNS routing rules. Add your rules just below the `double-click.net` example line.
@@ -32,12 +32,12 @@ I'm using [Laravel Homestead](http://laravel.com/docs/homestead) in example abov
 
 Copy the LaunchDaemons to have Dnsmasq launched on system startup.
 {% highlight bash %}
-$ sudo cp -fv /usr/local/opt/dnsmasq/*.plist /Library/LaunchDaemons
+sudo cp -fv /usr/local/opt/dnsmasq/*.plist /Library/LaunchDaemons
 {% endhighlight %}
 
 Then to load Dnsmasq now.
 {% highlight bash %}
-$ sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
+sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
 {% endhighlight %}
 
 The next step is to make sure outbound requests check Dnsmasq before any remote DNS servers. Open up System Preferences and visit the network pane. Click on the Advanced button and then select the DNS tab.
@@ -55,7 +55,7 @@ Thats about it. Easy huh! Now you should be able to visit your domain with any s
 Please note that when you edit the `dnsmasq.conf` configuration file you'll have to kill the process and reload it. Use the command below.
 
 {% highlight bash %}
-$ sudo kill $(ps aux | grep '[d]nsmasq' | awk '{print $2}')
+sudo kill $(ps aux | grep '[d]nsmasq' | awk '{print $2}')
 {% endhighlight %}
 
 If something went south or just doesn't work. Please [visit the official documentation](http://www.thekelleys.org.uk/dnsmasq/doc.html) or write in the comments below. 
