@@ -5,8 +5,10 @@ color: '#a09df3'
 {% for post in site.posts %}
   <section>
     <article>
-      <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-      <time datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%-d %B %Y"}}</time>
+      <header>
+        <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+        <time datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%-d %B %Y"}}</time>
+      </header>
       <p>{{post.excerpt}}</p>
       <a href="{{post.url}}" title="Continue reading {{post.title}}" class="btn">Continue reading</a>
     </article>
