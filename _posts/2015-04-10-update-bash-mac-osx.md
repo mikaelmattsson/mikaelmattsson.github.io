@@ -52,7 +52,7 @@ echo $BASH_VERSION
 
 This gives you another version, probably the previous older version. This is because the system doesn't yet know that you want to use the newer version. 
 
-First of you need to add the new shell to the list of allowed shells.
+First of, you'll need to add the new shell to the list of allowed shells.
 
 {% highlight bash %}
 
@@ -68,4 +68,4 @@ chsh -s /usr/local/bin/bash
 
 {% endhighlight %}
 
-Thats it. Now close terminal and boot the machine. You're now running the latest version of Bash. Happy hacking!
+Thats it! Now close terminal and boot the machine. You're now running the latest version of Bash. Happy hacking.
