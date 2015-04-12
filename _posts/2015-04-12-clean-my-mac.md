@@ -7,7 +7,7 @@ excerpt: There's so much you could clean on your Mac to save space. After a coup
 
 There's so much you could clean on your Mac to save space. After a couple months with your new Mac, OS X has been building up a big library of logs, backups and other cached data that necessarily isn't important to save.
 
-Below are commands listed which with you can run in order to free up storage and speedup your computer. So fire up the Terminal application and lets go.
+Below are commands listed which with you can run in order to free up storage and speedup your computer. Following these easy steps gave me back 10 GB of storage. Lets fire up the Terminal application and lets go.
 
 ## Trash
 Emptying the Trash could be painful and take a quite some time to finish, if you haven't done it in a while. This is because your Mac has to index the entire Trash directory while deleting files. Don't worry, there is a better way.
