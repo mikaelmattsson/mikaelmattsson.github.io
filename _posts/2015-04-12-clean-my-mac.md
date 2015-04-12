@@ -50,7 +50,7 @@ rm -rf /Library/Caches/Homebrew/*
 {% endhighlight %}
 
 ## Wrapping Up
-I usually don't run all these commands separately. Instead, I've created a Bash script that cleans all this shit up for me. If you're interested, you can [check it out on GitHub](https://github.com/vinkla/dotfiles/blob/master/bin/cleanup).
+I usually don't run all these commands separately. Instead, I've created a Bash script that cleans up everything at the same time. If you're interested, you can [check it out on GitHub](https://github.com/vinkla/dotfiles/blob/master/bin/cleanup).
 
 If you know of any other junk that is saved in the OS X system. Don't hesitate to add it to the comment section. If it is good then I'll add it to the article.
 
