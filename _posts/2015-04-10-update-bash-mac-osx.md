@@ -69,3 +69,4 @@ chsh -s /usr/local/bin/bash
 {% endhighlight %}
 
 Thats it! Now close terminal and boot the machine. You're now running the latest version of Bash. Happy hacking.
+
