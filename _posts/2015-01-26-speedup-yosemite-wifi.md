@@ -26,7 +26,7 @@ sudo ifconfig awdl0 down
 
 Note that if you restart your computer this will go back to default and you will have to turn it off again.
 
-If you later on realize that you are in need of using any of the services you just turned off. You can easily replace `down` with `up` and then its turned on again.
+If you later on realize that you are in need of using any of the services you just turned off. You can easily replace `down` with `up` to turn it back on again.
 
 {% highlight bash %}
 
@@ -35,7 +35,7 @@ sudo ifconfig awdl0 up
 {% endhighlight %}
 
 ## Fact
-This works perfectly on *Macbook Pro Retina Mid 2014*. Though, we did try this on an *Macbook Pro Mid 2011* and it didn't change anything. This probably means AWDL is not supported by older Macs. No worries, if its not supported, you won't be affected.
+This works perfectly on *Macbook Pro Retina Mid 2014*. Though, we did try this on an *Macbook Pro Mid 2011* and it didn't change a thing. This probably means AWDL is not supported by older Macs. No worries, if it isn't supported, you won't be affected.
 
 Does this work for you? Please let me know what hardware you're running the comments below or on Twitter. Then I can update the article with better fact.
 
