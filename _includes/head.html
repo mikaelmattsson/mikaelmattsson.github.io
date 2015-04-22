@@ -14,7 +14,7 @@
   <meta name="twitter:title" content="{% if page.title %}{{page.title}} - {% endif %}{{site.title}}">
   <meta name="twitter:creator" content="{{site.twitter}}">
   <meta name="twitter:image:src" content="{% if page.image %}{{site.url}}/images/{{page.image}}{% else %}{{site.github.owner_gravatar_url}}{% endif %}">
-  <meta name="twitter:url" content="http://vinkla.com">
+  <meta name="twitter:url" content="{{site.url}}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.github.project_tagline}}{% endif %}">
 
   <!-- Google -->
@@ -37,5 +37,5 @@
   </style>
   {% endif %}
 
-  <script src="//use.typekit.net/dxa2tjq.js"></script>
+  <script src="https://use.typekit.net/dxa2tjq.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
