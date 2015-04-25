@@ -40,3 +40,5 @@ This works perfectly on *Macbook Pro Retina Mid 2014*. Though, we did try this o
 Does this work for you? Please let me know what hardware you're running the comments below or on Twitter. Then I can update the article with better fact.
 
 **Edit January 28**: As of *Yosemite 10.10.2* the wireless connections seems to be a bit better. Though, turning it off still increases Wi-Fi speed.
+
+**Edit April 24**: As of *Yosemite 10.10.3* this issue seems to be fixed.
