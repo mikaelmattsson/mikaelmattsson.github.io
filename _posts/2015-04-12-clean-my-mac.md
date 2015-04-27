@@ -22,6 +22,7 @@ sudo rm -rfv ~/.Trash
 Apple keeps track of what you're doing by creating log files. These Apple System Logs files slows down your Mac, specially during startup. Remember OS X saves these while you're using your computer. Try to run this command as often as you're emptying the trash.
 {% highlight bash %} 
 sudo rm -rfv /private/var/log/asl/*.asl
+sudo rm -rfv /Library/Logs/DiagnosticReports/*
 {% endhighlight %}
  
 ## iOS Applications
@@ -36,10 +37,14 @@ With iTunes you can backup your iOS devices to your computer. If you're like me,
 rm -rf ~/Library/Application\ Support/MobileSync/Backup/*
 {% endhighlight %}
  
-## XCode Derived Data
-Working with XCode? If so, XCode save a lot of derived data. This data is possible to remove via XCode's interface. Though, I like to remove it from the command-line.
+## Xcode Derived Data & Archives
+Working with Xcode? If so, Xcode save a lot of derived data. This data is possible to remove via Xcode's interface. Though, I like to remove it from the command-line. Xcode also saves all old archives which you probably don't need anymore.
 {% highlight bash %} 
+# Derived Data
 rm -rf ~/Library/Developer/Xcode/DerivedData/*
+
+# Archives
+rm -rfv ~/Library/Developer/Xcode/Archives/*
 {% endhighlight %}
 
 ## Homebrew Cache
