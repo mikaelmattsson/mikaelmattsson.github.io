@@ -28,20 +28,20 @@ sudo rm -rfv /Library/Logs/DiagnosticReports/*
 ## iOS Applications
 Have you every connected an iOS device to your Mac? If so, iTunes has probably kept a copy of your iOS applications. You don't need those to be saved on your Mac. Remove them all.
 {% highlight bash %} 
-rm -rf ~/Music/iTunes/iTunes\ Media/Mobile\ Applications/*
+rm -rfv ~/Music/iTunes/iTunes\ Media/Mobile\ Applications/*
 {% endhighlight %}
 
 ## Device Backups
 With iTunes you can backup your iOS devices to your computer. If you're like me, everything should be stored in iCloud. Then you can remove the backups saved on your system.
 {% highlight bash %} 
-rm -rf ~/Library/Application\ Support/MobileSync/Backup/*
+rm -rfv ~/Library/Application\ Support/MobileSync/Backup/*
 {% endhighlight %}
  
 ## Xcode Derived Data & Archives
 Working with Xcode? If so, Xcode save a lot of derived data. This data is possible to remove via Xcode's interface. Though, I like to remove it from the command-line. Xcode also saves all old archives which you probably don't need anymore.
 {% highlight bash %} 
 # Derived Data
-rm -rf ~/Library/Developer/Xcode/DerivedData/*
+rm -rfv ~/Library/Developer/Xcode/DerivedData/*
 
 # Archives
 rm -rfv ~/Library/Developer/Xcode/Archives/*
@@ -51,7 +51,7 @@ rm -rfv ~/Library/Developer/Xcode/Archives/*
 If you're using [Homebrew](http://brew.sh/) to manage binary packages on your Mac. You could free up storage by deleting the content of its caches directory.
 {% highlight bash %} 
 brew cleanup --force -s
-rm -rf /Library/Caches/Homebrew/*
+rm -rfv /Library/Caches/Homebrew/*
 {% endhighlight %}
 
 ## Wrapping Up
