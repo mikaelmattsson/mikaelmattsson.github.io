@@ -27,15 +27,21 @@ sudo rm -rfv /Library/Logs/DiagnosticReports/*
  
 ## iOS Applications
 Have you every connected an iOS device to your Mac? If so, iTunes has probably kept a copy of your iOS applications. You don't need those to be saved on your Mac. Remove them all.
+
 {% highlight bash %} 
 rm -rfv ~/Music/iTunes/iTunes\ Media/Mobile\ Applications/*
 {% endhighlight %}
 
+> Please note that this will remove all backed-up iOS application on your computer. If you're not sure about what you're doing then please be cautious.
+
 ## Device Backups
 With iTunes you can backup your iOS devices to your computer. If you're like me, everything should be stored in iCloud. Then you can remove the backups saved on your system.
+
 {% highlight bash %} 
 rm -rfv ~/Library/Application\ Support/MobileSync/Backup/*
 {% endhighlight %}
+
+> Please note that this will remove all your iOS system backups on your computer. If you're not sure about what you're doing then please be cautious.
  
 ## Xcode Derived Data & Archives
 Working with Xcode? If so, Xcode save a lot of derived data. This data is possible to remove via Xcode's interface. Though, I like to remove it from the command-line. Xcode also saves all old archives which you probably don't need anymore.
