@@ -8,7 +8,7 @@ sass:
 
 timezone: Europe/Stockholm
 permalink: /posts/:title
-exclude: [Gemfile, Gemfile.lock, README.md]
+exclude: [Gemfile, Gemfile.lock, README.md, LICENSE]
 
 # Site settings
 title: Vincent Klaiber
