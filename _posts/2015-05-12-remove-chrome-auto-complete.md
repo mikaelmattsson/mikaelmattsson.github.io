@@ -7,7 +7,7 @@ excerpt: Whenever I fail to write a URL correctly in Google Chrome the auto-comp
 
 Whenever I fail to write a URL correctly in Google Chrome the auto-complete will punish me for a long time. Today I've learned how to remove entries from the auto-completion list.
 
-## Linux and Windows
+## Linux & Windows
 
 Just highlight the entry you wont to remove in the drop-down list (using the arrow keys, or your mouse cursor) and press `delete` on your keyboard.
 
