@@ -18,6 +18,6 @@ For mac users this is a little more tricky. First start by typing the unwanted a
 Then hit `fn` + `shift` + `delete` if you have a compact keyboard or `shift` + `delete`  if you have a keyboard with separate `delete` key (and no `fn`).  If you have a non-Apple keyboard, `shift` + `delete` should do the trick.
 
 
-In my case, I had accidentally written *http://packagist.com* (which doesn't exist) instead of ending it with `org` in the end. It had bugged me for days and today I finally found a solution. Thanks for reading along! 
+In my case, I had accidentally written `http://packagist.com` (which doesn't exist) instead of ending it with `org` in the end. It had bugged me for days and today I finally found a solution. Thanks for reading along! 
 
 
