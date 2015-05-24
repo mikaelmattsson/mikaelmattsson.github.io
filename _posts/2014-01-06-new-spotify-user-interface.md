@@ -9,7 +9,7 @@ redirect_from: /2014/01/new-spotify-user-interface/
 
 As many probably already have read, [Spotify](https://www.spotify.com/) has started to roll out an updated look to their desktop app. The update includes a darker user interface that make musicians artwork pop out.
 
-[<img src="/images/spotify-user-interface.png" alt="{{title}}">](/images/spotify-user-interface.png)
+![{{post.title}}](/images/spotify-user-interface.png)
 
 Most of the updates appears to be purley cosmetic, though there seems to be some tiny new features available. For example, in artist pages there is a new plus button on each track. If you press it, Spotify creates a new playlist called *Recently Saved* and adds the track to it.
 
@@ -21,7 +21,7 @@ There is still no release notes in the [forums](http://community.spotify.com/t5/
 
 Except for some minor design errors the app feels really stable and runs smoothly. Keep up the good work Spotify!
 
-### Beta
+## Beta
 
 Beta versions are now [availabe to download](http://community.spotify.com/t5/Help-Desktop-Linux-Mac-and/Welcome-to-the-Desktop-Beta/td-p/932803) from the community forums and with [Homebrew Cask](http://caskroom.io/).
 
@@ -29,6 +29,6 @@ Beta versions are now [availabe to download](http://community.spotify.com/t5/Hel
 brew cask install spotifybeta
 {% endhighlight %}
 
-#### SOURCES
+### SOURCES
 - [Spotify brings a clean new look to the desktop](http://www.theverge.com/2013/12/18/5222926/spotify-mac-app-0-9-8-update-visual-refresh) - The Verge
 - [Spotify 0.9.8: instructions and download](http://www.javiersantos.me/post/71959098951/download-for-win-os-x-spotify-0-9-8-instructions) - Javier Santos

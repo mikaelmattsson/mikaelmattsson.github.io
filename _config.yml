@@ -12,8 +12,8 @@ exclude: [Gemfile, Gemfile.lock, README.md, LICENSE]
 
 # Site settings
 title: Vincent Klaiber
-email: hello@vinkla.com
 description: Articles on everyday programming, personal challenges and new fun tech news.
+email: hello@vinkla.com
 twitter: vnkla
 baseUrl: "/"
 url: "https://vinkla.com"

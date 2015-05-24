@@ -1,0 +1,11 @@
+{% if page.color %}
+<meta name="theme-color" content="{{page.color}}">
+
+<style>
+  aside header, .button:hover  { background: {{page.color}}; }
+  .page--home h2 a:hover, .post article p a:hover, .post article li a:hover, a:hover, .button {
+    color: {{page.color}};
+    border-color: {{page.color}};
+  }
+</style>
+{% endif %}

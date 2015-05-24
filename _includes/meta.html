@@ -25,17 +25,7 @@
 <link rel="stylesheet" href="/styles/vinkla.css">
 <link rel="shortcut icon" href="/favicon.ico">
 
-{% if page.color %}
-<meta name="theme-color" content="{{page.color}}">
-
-<style>
-  aside header, .btn:hover { background: {{page.color}}; }
-  h4, a:hover, .btn {
-    color: {{page.color}};
-    border-color: {{page.color}};
-  }
-</style>
-{% endif %}
+{% include color.html %}
 
 <script src="https://use.typekit.net/dxa2tjq.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>

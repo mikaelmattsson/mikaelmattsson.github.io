@@ -8,7 +8,7 @@ excerpt: Mac OS X doesn't ship with the latest version Bash. The new version of 
 
 Mac OS X doesn't ship with the latest version Bash. The new version of Bash has some nice new features that are worth the effort of updating.
 
-[<img src="/images/update-bash-mac.png" alt="{{title}}">](/images/update-bash-mac.png)
+![{{post.title}}](/images/update-bash-mac.png)
 
 ## Version
 

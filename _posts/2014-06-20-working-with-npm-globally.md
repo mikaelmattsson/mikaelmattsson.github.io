@@ -9,7 +9,7 @@ redirect_from: /2014/06/working-with-npm-globally/
 
 Tools like [Node Packaged Modules](https://npmjs.org/), also known as **npm** and **npmjs**, has become a big part of my everyday coding. Either if you're working with command line tools like [Grunt](http://gruntjs.com/) and [Gulp](http://gulpjs.com/) or building [Node.js](http://nodejs.org/) apps, you always find your self having a great time. Everything just works.
 
-[<img src="/images/node-packaged-modules.png" alt="{{title}}">](/images/node-packaged-modules.png)
+![{{post.title}}](/images/node-packaged-modules.png)
 
 In this post I've listed useful commands when working with globally installed packages. I'll also go over changing npm's registry to get faster downloads. Bring it on.
 
@@ -39,7 +39,7 @@ npm install -g npm@latest
 
 Visit [npmrc](https://npmjs.org/doc/files/npmrc.html) and [npm-config](https://npmjs.org/doc/config.html) to learn more.
 
-#### SOURCES
+### SOURCES
 - [NPM's GitHub Account](https://github.com/npm)
 - [Manage the npm configuration files](https://npmjs.org/doc/files/npmrc.html)
 - [European npm mirror](http://npmjs.eu/)

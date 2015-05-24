@@ -1,5 +1,25 @@
+code, pre {
+  background: #f4f4f5;
+  color: #333335;
+  border-radius: 3px;
+  font-family: $font-family-code;
+}
+
+p code {
+  padding: .2rem .4rem;
+  font-size: .85rem;
+}
+
+pre {
+  line-height: 1.5rem;
+  padding: 1.25rem;
+  font-size: .85rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
 .highlight  {
-  .c { color: #999988; font-style: italic } /* Comment */
+  .c { color: #999995; font-style: italic } /* Comment */
   .err { color: #a61717; background-color: #e3d2d2 } /* Error */
   .k { font-weight: bold } /* Keyword */
   .o { font-weight: bold } /* Operator */
