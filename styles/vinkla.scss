@@ -6,4 +6,9 @@
 @import 'https://raw.githubusercontent.com/jonathantneal/sanitize.css/master/dist/sanitize.css';
 
 // Variables, fonts, mixins, helpers...
-@import 'base/__base';
+@import 'variables';
+@import 'global';
+@import 'layouts';
+@import 'highlight';
+@import 'typography';
+
