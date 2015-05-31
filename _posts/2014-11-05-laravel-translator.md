@@ -9,7 +9,7 @@ redirect_from: /2014/11/laravel-translator/
 
 A while ago I started to build a multilingual application. One of the client's criteria was that they wanted to be able to edit translations and adding new languages during the life cycle of the app. Building a database-leveled multilingual back-end was new for me. This is the story of how and why the [Translator](https://github.com/vinkla/translator) package came to life.
 
-![{{post.title}}](https://cloud.githubusercontent.com/assets/499192/7440607/b7c867cc-f0bf-11e4-9d13-0ce90882ae14.png)
+[<img src="https://cloud.githubusercontent.com/assets/499192/7440607/b7c867cc-f0bf-11e4-9d13-0ce90882ae14.png" alt="{{post.title}}">](https://cloud.githubusercontent.com/assets/499192/7440607/b7c867cc-f0bf-11e4-9d13-0ce90882ae14.png)
 
 ## Research
 I prefer building APIs with [Laravel Framework](http://laravel.com). Though, Laravel doesn't support database-leveled localization attributes on [Eloquent](http://laravel.com/docs/eloquent) models. Which is very important since translations shouldn't be dependent on static values specified in configuration files within the application core.

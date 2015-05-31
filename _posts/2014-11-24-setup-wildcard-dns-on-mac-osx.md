@@ -44,7 +44,7 @@ sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
 
 The next step is to make sure outbound requests check Dnsmasq before any remote DNS servers. Open up System Preferences and visit the network pane. Click on the Advanced button and then select the DNS tab.
 
-![{{post.title}}](/images/wildcards-dns.png)
+[<img src="/images/wildcards-dns.png" alt="{{post.title}}">](/images/wildcards-dns.png)
 
 Add the following three IP addresses to make sure the requests goes through Dnsmasq before any thing else. The latter two are Google's DNS servers. They should work in most cases. If you ever run into any problems, these addresses can easily be changed.
 {% highlight bash %}
