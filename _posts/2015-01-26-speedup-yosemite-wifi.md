@@ -41,4 +41,4 @@ Does this work for you? Please let me know what hardware you're running the comm
 
 **Edit January 28**: As of *Yosemite 10.10.2* the wireless connections seems to be a bit better. Though, turning it off still increases Wi-Fi speed.
 
-**Edit April 24**: As of *Yosemite 10.10.3* this issue seems to be fixed.
+**Edit April 9**: As of *Yosemite 10.10.3* this issue seems to be fixed.
