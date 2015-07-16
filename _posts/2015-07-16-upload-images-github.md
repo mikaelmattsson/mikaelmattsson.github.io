@@ -12,7 +12,7 @@ Instead of committing the image resource to the repository we'll take advantage 
 
 First visit any repository on GitHub. Then click your way through to the issues page. It should be the URL of the repository + `/issues` at the end.
 
-Create a new issue by clicking the button New Issue. You'll now see both a title and a description field. Drag and drop any image you want to upload on to the description field. This will start the uploading process. In our example we want to upload our image of Marty McFly.
+Create a new issue by clicking the button **New Issue**. You'll now see both a title and a description field. Drag and drop any image you want to upload on to the description field. This will start the uploading process. In our example we want to upload our image of Marty McFly.
 
 {% highlight bash %}
 
