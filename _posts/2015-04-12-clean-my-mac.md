@@ -34,6 +34,13 @@ rm -rfv ~/Music/iTunes/iTunes\ Media/Mobile\ Applications/*
 
 > Please note that this will remove all backed-up iOS application on your computer. If you're not sure about what you're doing then please be cautious.
 
+## iOS Software Updates
+Whenever you update your iOS device trought iTunes it downloads that entire update locally on your computer. Once you've updated you don't need them anymore.
+
+{% highlight bash %} 
+rm -rfv ~/Library/iTunes/iPhone\ Software\ Updates/*
+{% endhighlight %}
+
 ## Device Backups
 With iTunes you can backup your iOS devices to your computer. If you're like me, everything should be stored in iCloud. Then you can remove the backups saved on your system.
 
