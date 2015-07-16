@@ -3,10 +3,10 @@ layout: post
 title: Upload Images to GitHub's Cloud Service
 color: '#f2c400'
 image: marty-mcfly-github.jpg
-excerpt: Sometimes I see developers committing screenshots to their GitHub repositories. This takes up unnecessary space and makes the repository messy. There is a better solution, using GitHub's own user cloud service.
+excerpt: Sometimes I see developers committing screenshots to their GitHub repositories. This takes up unnecessary space and makes the repositories messy. There is a better solution, using GitHub's own user cloud service.
 ---
 
-Sometimes I see developers committing screenshots to their GitHub repositories. This takes up unnecessary space and makes the repository messy. There is a better solution, using GitHub's own user cloud service.
+Sometimes I see developers committing screenshots to their GitHub repositories. This takes up unnecessary space and makes the repositories messy. There is a better solution, using GitHub's own user cloud service.
 
 Instead of committing the image resource to the repository we'll take advantage of GitHub's own cloud service that is accessible through GitHub issues. This actually is quite simple to do.
 
