@@ -14,7 +14,7 @@ First visit any repository on GitHub. Then click your way through to the issues 
 
 Create a new issue by clicking the button **New Issue**. You'll now see both a title and a description field. Drag and drop any image you want to upload on to the description field. This will start the uploading process. In our example we want to upload our image of Marty McFly.
 
-{% highlight bash %}
+{% highlight text %}
 
 ![Uploading marty-mcfly.jpg…]()
 
@@ -22,7 +22,7 @@ Create a new issue by clicking the button **New Issue**. You'll now see both a t
 
 Once GitHub is done uploading your image they will add the URL to the description field automagically. Great Scott!
 
-{% highlight bash %}
+{% highlight text %}
 
 ![marty-mcfly](https://cloud.githubusercontent.com/assets/499192/8718466/e58c679c-2ba4-11e5-8e3c-3f9955b810f7.jpg)
 
