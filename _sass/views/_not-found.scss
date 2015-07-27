@@ -1,0 +1,16 @@
+.page--not-found {
+
+  body {
+    background: url(http://i.giphy.com/gLrWjmW6XljZC.gif) center center no-repeat;
+    background-size: cover;
+  }
+
+  article {
+    padding-top: 4rem;
+    padding-left: 8rem;
+
+    @media screen and (max-width: 30rem) {
+      padding: 2rem 1rem;
+    }
+  }
+}
