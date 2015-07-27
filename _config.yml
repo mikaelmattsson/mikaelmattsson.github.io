@@ -1,7 +1,8 @@
 # Build settings
 gems:
-  - jekyll-sitemap
+  - jekyll-mentions
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 sass:
   style: :compressed
