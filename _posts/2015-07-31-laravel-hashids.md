@@ -18,7 +18,7 @@ You can also decode those ids back. This is useful in bundling several parameter
 
 ## How Does It Work?
 
-Here you can see an example of just how simple this package is to use. After you enter your authentication details in the config file, it will just work:
+Here you can see an example of just how simple this package is to use. After you enter your alphabet, salt and length in the config file, it will just work:
 
 {% highlight php startinline %}
 // Encoding integers.
