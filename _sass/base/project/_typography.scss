@@ -61,11 +61,9 @@ h5 {}
 h6 {}
 
 address {}
-small {}
+small { font-size: .9rem; }
 
-p {
-  font-size: 1.185rem;
-}
+p { font-size: 1.185rem; }
 
 a {
   text-decoration: none;
@@ -91,13 +89,13 @@ li {
 blockquote {
   margin: 1.5rem 0 1.25rem;
 
+  padding-left: 1rem;
+
+  border-left: 4px solid $color-border-primary;
+
   p {
-    padding-left: 1rem;
-
-    border-left: 4px solid $color-border-primary;
-
     color: $color-blockquote;
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: $line-height-heading-blockquote;
     font-style: italic;
   }

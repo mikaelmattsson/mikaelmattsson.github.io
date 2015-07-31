@@ -16,7 +16,7 @@ I prefer building APIs with [Laravel Framework](http://laravel.com). Though, Lar
 
 We researched how other developers had tackled creating a multilingual database structure. Some added an extra columns on their tables for every language. Example below.
 
-{% highlight php %}
+{% highlight text %}
 title
 title_sv
 title_de
@@ -26,11 +26,13 @@ title_en
 This seemed like bad practice and it definitely isn't a good approach for a scalable application.
 
 Others created an extra table for each locale Keeping a copy of each row synced between the tables with different translations. 
-{% highlight php %}
+
+{% highlight text %}
 articles
 articles_en
 articles_sv
 {% endhighlight %}
+
 This didn't either seem like the way to go.
 
 We also looked at other frameworks like [Craft](https://buildwithcraft.com). Though, nothing seemed flexible enough to cover our needs. We stuck with Laravel.
