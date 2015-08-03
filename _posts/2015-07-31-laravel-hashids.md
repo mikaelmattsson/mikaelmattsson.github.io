@@ -18,7 +18,7 @@ You can also decode those ids back. This is useful in bundling several parameter
 
 ## How Does It Work?
 
-First follow the [installation guide on GitHub](https://github.com/vinkla/hashids#installation). The [publish the configuration file](https://github.com/vinkla/hashids#configuration) to your config directory. 
+First follow the [installation guide](https://github.com/vinkla/hashids#installation) on GitHub. Then [publish](https://github.com/vinkla/hashids#configuration) the configuration file to your config directory. Read more on [GitHub](https://github.com/vinkla/hashids#readme).
 
 Here you can see an example of just how simple this package is to use. After you enter your alphabet, salt and length in the config file, it will just work:
 
