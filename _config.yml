@@ -3,6 +3,7 @@ gems:
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-feed
 
 sass:
   style: :compressed
