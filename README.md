@@ -1,4 +1,8 @@
-This project is powered with [Jekyll](http://jekyllrb.com/). Visit [http://vinkla.com](http://vinkla.com) to actually see the site.
+# vinkla.com
+
+[<img src="https://i.giphy.com/gLrWjmW6XljZC.gif" width="100%">](https://vinkla.com)
+
+This project is powered with [Jekyll](http://jekyllrb.com/). Visit [https://vinkla.com](https://vinkla.com) to actually see the site.
 
 ## Installation
 
