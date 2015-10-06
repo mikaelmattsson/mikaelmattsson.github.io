@@ -38,6 +38,7 @@ sudo service nginx start
 ## PHP
 
     sudo apt-get install php5-fpm
+    sudo apt-get install php5-cli
 
 ## Nginx and php
 
