@@ -129,6 +129,9 @@ Add the folowing to the bottom of the file: `/swapfile   none    swap    sw    0
 
     apt-get install git
 
+    ssh-keygen -t rsa -b 4096 -C "project-server@comapny.com" #promted to enter name and password for key
+    cat ~/.ssh/id_rsa.pub #Save this for later
+
 ## Redis
 
     sudo apt-get install build-essential #expects confirmation
