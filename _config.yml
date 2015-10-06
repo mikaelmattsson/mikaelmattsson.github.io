@@ -1,6 +1,5 @@
 # Build settings
 gems:
-  - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed

@@ -2,9 +2,4 @@
 ---
 @charset 'UTF-8';
 
-@import 'https://raw.githubusercontent.com/jonathantneal/sanitize.css/master/dist/sanitize.css';
-
-@import 'base/_base';
-@import 'components/_components';
-@import 'views/_views';
-
+@import "_base";

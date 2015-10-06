@@ -3,15 +3,30 @@ layout: default
 color: '#7f75f5'
 ---
 
-{% for post in site.posts %}
-<div class="post">
-  <article>
-    <header>
-      <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-      <time datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%-d %B %Y"}}</time>
-    </header>
-    <p>{{post.excerpt}}</p>
-    <a href="{{post.url}}" title="Continue reading {{post.title}}" class="button">Continue reading</a>
-  </article>
-</div><!-- /post -->
-{% endfor %}
+<div id="main-container">
+    <div id="main" role="main">
+        <header>
+            <h1>Mikael Mattsson</h1>
+        </header>
+        <p class="social">
+            <a href="http://se.linkedin.com/pub/mikael-mattsson/50/199/52a"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/mikaelmattsson"><i class="fa fa-github-alt"></i></a>
+        </p>
+    </div>
+
+</div>
+<div class="container post-list">
+    {% for post in site.posts %}
+    <div class="post tag-{{post.tag}}">
+        <article>
+            <header>
+                <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+                <time datetime="{{post.date | date: " %Y-%m-%d"}}">{{post.date | date: "%-d %B %Y"}}</time>
+            </header>
+            <p>{{post.excerpt}}</p>
+            <a href="{{post.url}}" title="Continue reading {{post.title}}" class="button">Continue reading</a>
+        </article>
+    </div>
+    <!-- /post -->
+    {% endfor %}
+</div>
