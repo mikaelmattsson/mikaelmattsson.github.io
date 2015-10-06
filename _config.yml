@@ -13,9 +13,9 @@ permalink: /posts/:title
 exclude: [Gemfile, Gemfile.lock, README.md, LICENSE]
 
 # Site settings
-title: Vincent Klaiber
-description: Articles on everyday programming, personal challenges and new fun tech news.
-email: hello@vinkla.com
-twitter: vnkla
+title: Mikael Mattsson
+description: Codes and stuff
+email: mikael.p.mattsson@gmail.com
+twitter:
 baseUrl: "/"
-url: "https://vinkla.com"
+url: "https://mikaelmattsson.github.io"

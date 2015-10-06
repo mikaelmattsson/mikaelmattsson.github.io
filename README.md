@@ -1,8 +1,6 @@
-# vinkla.com
+# mikaelmattsson.github.io
 
-[<img src="https://i.giphy.com/gLrWjmW6XljZC.gif" width="100%">](https://vinkla.com)
-
-This project is powered with [Jekyll](http://jekyllrb.com/). Visit [https://vinkla.com](https://vinkla.com) to actually see the site.
+This project is powered with [Jekyll](http://jekyllrb.com/). Visit [https://mikaelmattsson.github.io](https://mikaelmattsson.github.io) to actually see the site.
 
 ## Installation
 
