@@ -160,12 +160,21 @@ Optimize [redis](http://fbrnc.net/blog/2013/02/redis-optimization)
 
 ## PHP Modules
 
-
     sudo apt-get install php5-redis
     sudo apt-get install php5-curl
 
     service php5-fpm restart
 
+## sendmail
+
+    sudo apt-get install sendmail
+
+## crontab
+
+    */5 *   * * *   www-data /bin/sh /path/to/magento/cron.sh cron.php -m=default
+    */5 *   * * *   www-data /bin/sh /path/to/magento/cron.sh cron.php -m=always
+
+[source](http://magento.stackexchange.com/questions/63707/which-cron-script-is-best-to-run-cron-php-or-cron-sh)
 
 ## Magento
 
