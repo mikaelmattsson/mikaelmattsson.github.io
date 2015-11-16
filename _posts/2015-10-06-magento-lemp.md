@@ -171,12 +171,13 @@ Optimize [redis](http://fbrnc.net/blog/2013/02/redis-optimization)
 
 ## crontab
 
-    crontab -e
+    crontab -e -u www-data
 
     Enter the this:
 
-    */5 *   * * *   www-data /bin/sh /path/to/magento/cron.sh cron.php -m=default
-    */5 *   * * *   www-data /bin/sh /path/to/magento/cron.sh cron.php -m=always
+    */5 * * * *  /bin/sh /var/www/html/public/cron.sh cron.php -m=default
+    */5 * * * *  /bin/sh /var/www/html/public/cron.sh cron.php -m=always
+    */1 * * * *  /bin/touch /var/www/html/public/var/crontest.txt
 
 [source](http://magento.stackexchange.com/questions/63707/which-cron-script-is-best-to-run-cron-php-or-cron-sh)
 
@@ -296,5 +297,18 @@ local.xml
 
 Replace custom_mysql_password with your password
 
+## Permissions
 
+From inside the web root run:
+
+    chown -R www-data .
+    
+    find . -type f -exec chmod 400 {} \;
+    find . -type d -exec chmod 500 {} \; 
+    find var/ -type f -exec chmod 600 {} \; 
+    find media/ -type f -exec chmod 600 {} \;
+    find var/ -type d -exec chmod 700 {} \; 
+    find media/ -type d -exec chmod 700 {} \;
+    chmod 700 includes
+    chmod 600 includes/config.php
 
