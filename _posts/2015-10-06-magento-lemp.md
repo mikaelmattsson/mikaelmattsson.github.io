@@ -135,24 +135,11 @@ Add the folowing to the bottom of the file: `/swapfile   none    swap    sw    0
 
 ## Redis
 
-    sudo apt-get install build-essential #expects confirmation
-
-    sudo apt-get install tcl8.5 #expects confirmation
-
-    wget http://download.redis.io/releases/redis-stable.tar.gz
-    tar xzf redis-stable.tar.gz
-    cd redis-stable
-    make
-    make test #takes a while
-    sudo make install
-    cd utils
-    sudo ./install_server.sh #promts for configuration
+    sudo apt-get install redis-server
 
 Start at boot
 
     sudo update-rc.d redis_6379 defaults
-
-I found out later that redis could be installed from the repositories using `sudo apt-get install redis-server`
 
 Optimize [redis](http://fbrnc.net/blog/2013/02/redis-optimization)
 
