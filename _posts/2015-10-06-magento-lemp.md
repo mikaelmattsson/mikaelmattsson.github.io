@@ -171,6 +171,10 @@ Optimize [redis](http://fbrnc.net/blog/2013/02/redis-optimization)
 
 ## crontab
 
+    crontab -e
+
+    Enter the this:
+
     */5 *   * * *   www-data /bin/sh /path/to/magento/cron.sh cron.php -m=default
     */5 *   * * *   www-data /bin/sh /path/to/magento/cron.sh cron.php -m=always
 
