@@ -4,19 +4,23 @@ This project is powered with [Jekyll](http://jekyllrb.com/). Visit [https://mika
 
 ## Installation
 
-Make sure we’re using the latest gems.
+
 ```bash
+# Make sure we’re using the latest gems.
 sudo gem update --system
 sudo gem update
-```
 
-Install the bundler tool.
-```bash
+# Install the bundler tool.
 sudo gem install bundler
+
+# Install dependencies
+sudo bundle install
 ```
 
-Run the site and watch for changes.
+# Develop
+
 ```bash
+# Run the site and watch for changes.
 bundle exec jekyll serve --watch --drafts
 ```
 

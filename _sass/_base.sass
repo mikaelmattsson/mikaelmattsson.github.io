@@ -4,7 +4,24 @@ html, body
 
 #main-container
     position: relative
-    padding-bottom: 60%
+    min-height: 420px
+    height: 100vh
+    &:after,
+    &:before
+        display: block
+        content: " "
+        position: absolute
+        bottom: 3%
+        left: 50%
+        margin-left: -40px
+        width: 0
+        height: 0
+        border-left: 40px solid transparent
+        border-right: 40px solid transparent
+        border-top: 40px solid #bbb
+    &:after
+        border-top: 40px solid #fff
+        margin-bottom: 2px
 
 #main
     position: absolute
